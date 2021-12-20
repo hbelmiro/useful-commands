@@ -6,5 +6,40 @@
 
 [source]
 ----
+kn route describe <service_name>
+----
+
+Example:
+
+[source]
+----
 kn route describe greeter-cli
+----
+
+== Describe service
+
+[source]
+----
+kn service describe <service_name>
+----
+
+Example:
+
+[source]
+----
+kn service describe greeter-cli
+----
+
+== Describe service from specific revision
+
+[source]
+----
+kn revision describe <service_name>
+----
+
+Example:
+
+[source]
+----
+kn revision describe greeter-cli
 ----
