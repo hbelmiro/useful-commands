@@ -1,0 +1,10 @@
+= kn
+
+:toc:
+
+== Describe traffic split
+
+[source]
+----
+kn route describe greeter-cli
+----
