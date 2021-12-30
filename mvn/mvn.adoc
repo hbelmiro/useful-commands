@@ -1,0 +1,17 @@
+= mvn
+
+:toc:
+
+== Find out where a dependency version comes from
+
+[source]
+----
+mvn org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom -Dverbose=true -Doutput=<filename>
+----
+
+Example:
+
+[source]
+----
+mvn org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom -Dverbose=true -Doutput=effective-pom.xml
+----
